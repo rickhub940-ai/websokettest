@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/", "destination": "/api/ws" },
+    { "source": "/api/command", "destination": "/api/ws" },
+    { "source": "/api/ws", "destination": "/api/ws" }
+  ]
+}
